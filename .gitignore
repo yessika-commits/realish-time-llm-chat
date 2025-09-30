@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+env/
+venv/
+backend/data/media/audio/
+backend/data/media/images/
+backend/data/conversations.db
+
+# Node
+node_modules/
+dist/
+.parcel-cache/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Audio models
+kokoro.onnx
+voices.bin
+
+# OS
+Thumbs.db
+Desktop.ini
+
