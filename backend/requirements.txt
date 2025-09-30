@@ -1,0 +1,15 @@
+fastapi==0.112.2
+uvicorn[standard]==0.30.3
+python-multipart==0.0.9
+faster-whisper==1.2.0
+kokoro-onnx==0.4.9
+pydantic==2.9.1
+pydantic-settings==2.4.0
+websockets==12.0
+httpx==0.27.2
+numpy>=1.24
+sqlalchemy==2.0.36
+aiosqlite==0.20.0
+webrtcvad==2.0.10
+aiofiles==24.1.0
+
