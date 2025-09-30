@@ -27,16 +27,16 @@ This project provides a local real (ish) time conversational interface with an L
    - Get kokoro components from https://github.com/thewh1teagle/kokoro-onnx
 
 2. **Backend setup**
-   ```bash
-#   C:\Python311\python.exe -m venv .venv
+   ```
+   python.exe -m venv .venv
    .venv\Scripts\Activate.ps1
    python -m pip install --upgrade pip
    python -m pip install -r requirements.txt
    uvicorn backend.main:app --reload --host 127.0.0.1 --port 8000
    ```
 
-3. **Frontend setup**
-   ```bash
+4. **Frontend setup**
+   ```
    cd frontend/public
    php -S 127.0.0.1:8080 -t . router.php
    ```
@@ -46,3 +46,4 @@ This project provides a local real (ish) time conversational interface with an L
 
 - Whisper model downloads will occur on first run.
 - This is my first Github repository. Please be nice. I'm happy to fix problems, help, and learn!
+
